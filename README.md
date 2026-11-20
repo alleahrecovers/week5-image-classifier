@@ -1,3 +1,5 @@
+Alleah MacSteves
+
 # week5-image-classifier
 
 
@@ -7,9 +9,9 @@
 
 For this project, I chose to build an image classifier that can recognize two different desk objects: pen and phone
 
-My three classes are:
+My two classes are:
 1. Pen
 2. Phone
-3. Neither
+
 
 I chose these objects because they are everyday items that are easy to photograph using my phone camera. They also have different shapes and appearances, which makes them good objects to test with an image classification model. I wanted to see how accurately the model could recognize each object and whether changing the environment would affect its predictions.
