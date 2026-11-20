@@ -5,7 +5,7 @@
 
 ## 1.1 Pick a Task
 
-For this project, I chose to build an image classifier that can recognize two different desk objects: pens, phones, and neither.
+For this project, I chose to build an image classifier that can recognize two different desk objects: pen and phone
 
 My three classes are:
 1. Pen
