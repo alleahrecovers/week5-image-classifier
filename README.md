@@ -51,4 +51,13 @@ Hypothesis:
 I think the model struggles to recognize the pen because my training images did not include enough variety in angles and lighting. I believe adding more pen images taken from different angles and lighting conditions will help the model recognize the pen more accurately.
 
 
+### Part 4.2: Changes Made
 
+I originally added additional pen images, but some included my face and other parts of my appearance. I noticed that the model started identifying me as a pen, even when I was not holding one. I removed those images and kept the training images focused on the pen itself. After making this change and retraining the model, it began recognizing the pen more accurately.
+
+
+### Part 4.4: Before and After Comparison
+
+After removing training images that included my face, I retrained the model and tested the pen again. The results improved significantly. Before making changes, the model correctly recognized the pen in 3 out of 5 tests. After making changes, it correctly recognized the pen in all 5 tests.
+
+The model's confidence also improved when the pen was shown from different angles and distances. This experiment showed me that the quality and content of training images can greatly affect how well an AI model performs. I learned that training images should focus on the actual object rather than unrelated details in the background.
