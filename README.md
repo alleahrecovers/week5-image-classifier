@@ -35,3 +35,20 @@ Whose hands/ whose objects  My own objects
 The model performed better when identifying the phone than the pen. It correctly identified 4 out of 5 phone tests and 3 out of 5 pen tests. The phone had consistently high confidence percentages, while the pen had lower confidence.
 
 I noticed that the model struggled when either object was held sideways or at a different angle. This shows that the model does not always recognize objects when their appearance or orientation changes. I learned that AI models can perform well with familiar images but still struggle with changes in the testing environment.
+
+
+### Part 3: Breaking the Model
+
+I tested my model under different conditions, including changes in lighting, background, and distance. The model struggled much more with recognizing the pen than the phone. When I changed the lighting and background, the model had difficulty recognizing the pen. However, it recognized the phone with 80% confidence under different lighting and 99% confidence with a different background.
+
+These tests showed me that my model is better at recognizing the phone than the pen. It also showed that changes in the environment can affect how accurately an AI model identifies objects. The model needs more varied training images to improve its ability to recognize objects under different conditions.
+
+
+### Part 4: Diagnose and Fix
+
+Hypothesis:
+
+I think the model struggles to recognize the pen because my training images did not include enough variety in angles and lighting. I believe adding more pen images taken from different angles and lighting conditions will help the model recognize the pen more accurately.
+
+
+
